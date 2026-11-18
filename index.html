@@ -12,14 +12,14 @@
 
 <div class="container py-4" style="max-width: 750px;">
     
-    <div class="total-box p-4 mb-4 d-flex justify-content-between align-items-center shadow-sm">
+    <div class="total-box p-4 mb-4 d-flex flex-wrap justify-content-between align-items-center gap-2 shadow-sm">
         <div>
             <h4 class="mb-1 fw-bold"><i class="bi bi-cart4 me-2"></i>Market Sepetim</h4>
             <small class="opacity-75" id="itemCountText"></small>
         </div>
-        <div class="text-end">
+        <div class="text-end ms-auto">
             <span class="d-block small opacity-75">Genel Toplam</span>
-            <h2 class="mb-0 fw-bold" id="grandTotal">0,00 ₺</h2>
+            <h2 class="mb-0 fw-bold text-nowrap" id="grandTotal">0,00 ₺</h2>
         </div>
     </div>
 
@@ -54,13 +54,13 @@
         </div>
 
         <div class="table-responsive">
-            <table class="table table-hover align-middle mb-0">
+            <table class="table table-hover align-middle mb-0" style="min-width: 480px;">
                 <thead class="table-light">
                     <tr>
                         <th>Ürün</th>
-                        <th class="text-end">Birim Fiyat</th>
-                        <th class="text-center">Adet</th>
-                        <th class="text-end">Ara Toplam</th>
+                        <th class="text-end text-nowrap">Birim Fiyat</th>
+                        <th class="text-center text-nowrap">Adet</th>
+                        <th class="text-end text-nowrap">Ara Toplam</th>
                         <th class="text-center" style="width: 50px;">Sil</th>
                     </tr>
                 </thead>
